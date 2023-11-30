@@ -64,7 +64,7 @@ public class Principal {
 		
 		//AUTOR
 		autor.setIdAutor(1);
-		autor.setNombre("Rafael");
+		autor.setNombre("Rafael2");
 		autor.setApellido("Chaparro Madiedo");
 		autor.setPais("Colombia");
 		autor.setDireccion("Bogota");
