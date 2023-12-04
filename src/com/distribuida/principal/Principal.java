@@ -28,48 +28,48 @@ public class Principal {
 		//CLIENTE
 		cliente.setIdCliente(1);
 		cliente.setCedula("1751286087");
-		cliente.setNombre("Dimas");
-		cliente.setApellido("Vera");
+		cliente.setNombre("Daniel");
+		cliente.setApellido("Chicaiza");
 		cliente.setDireccion("Quito, Buenavista");
 		cliente.setTelefono("098745632");
-		cliente.setCorreo("dimasv@hotmail.com");
+		cliente.setCorreo("danielchicaiza15@gmail.com");
 		
 		//FACTURA
 		factura.setIdFactura(1);
 		factura.setNumFactura("001");
-		factura.setFecha("29/11/2023");
+		factura.setFecha("28/11/2023");
 		factura.setTotalNeto(17.85);
 		factura.setIva(1.12);
 		factura.setTotal(factura.getTotalNeto()*factura.getIva());
 		
 		//LIBRO
 		libro.setIdLibro(1);
-		libro.setTitulo("OPIO EN LAS NUBES");
-		libro.setEditorial("Santillana");
+		libro.setTitulo("LA BIBLIA");
+		libro.setEditorial("Diosito");
 		libro.setNumPaginas(320);
 		libro.setEdicion(2);
 		libro.setIdioma("Español");
-		libro.setFechaPublicacion("2010");
-		libro.setDescripcion("Es una novela que se basa en las experiencias y estilo de vida de un grupo de adictos a las drogas y fiestas");
+		libro.setFechaPublicacion("700 a.C");
+		libro.setDescripcion("La Biblia es el conjunto de libros canónicos del judaísmo y el cristianismo. La canonicidad de cada libro varía dependiendo de la tradición adoptada. Según las religiones judía y cristiana, transmite la palabra de Dios.");
 		libro.setNumEjemplares(400);
 		libro.setPortada("Original");
-		libro.setPresentacion("La historia es contada por tres narradores en un mundo paralelo que recrea la fantasía de una época surrealista enmarcada en una ciudad tan propia como la Bogotá de esos años");
+		libro.setPresentacion("Se puede decir que la Biblia es una obra colectiva, es decir, obra de todo un pueblo que, a través del tiempo, ha plasmado en ella su tradición. De ahí se explica por qué la mayoría de los autores del Antiguo Testamento son anónimos, es decir, desconocidos, para que se pusiera de manifiesto este carácter colectivo. Estos autores se basaron en la tradición oral.");
 		libro.setPrecio(15.75);
 		
 		
 		//CATEGORIA
 		categoria.setIdCategoria(1);
-		categoria.setCategoria("Aventura");
-		categoria.setDescripcion("Opio en las nubes");
+		categoria.setCategoria("HISTORIA");
+		categoria.setDescripcion("La biblia");
 		
 		//AUTOR
 		autor.setIdAutor(1);
-		autor.setNombre("Rafael2");
-		autor.setApellido("Chaparro Madiedo");
-		autor.setPais("Colombia");
-		autor.setDireccion("Bogota");
-		autor.setTelefono("56793");
-		autor.setCorreo("MadiedoCha@hotmail.com");
+		autor.setNombre("Diosito");
+		autor.setApellido("Jesús de Nazaret o Jesús de Galilea");
+		autor.setPais("Jerusalen");
+		autor.setDireccion("Egipto");
+		autor.setTelefono("6734689");
+		autor.setCorreo("Diosito@gmail.com");
 		
 		
 		//IMPRIMIR
